@@ -1,0 +1,323 @@
+neocities
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of popcorn ron</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  
+    <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/Images/Icons/little_happy.png">
+  
+  <style> 
+  /* unvisited link */
+a:link {
+  color: #ffdaf5;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color:  blue ;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
+  
+  h1 {text-align: center;}
+    h2 {text-align: center;}
+p {text-align: center;}
+ul {text-align: center;}
+button {text-align: center;}
+  
+  
+  body {
+    background-image: url('/Images/GIMP/sky.jpg'); 
+  color: #0b053f;
+  text-align: center;
+  font-family: "Comic Sans MS", sans-serif;
+  }
+        #randomLinkBtn {
+          padding: 1px 4px;
+          font-size: 12px;
+          background-color: blue;
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+  
+    </style>
+    
+  <body>
+ <marquee behavior="scroll" direction="right"> <h1>Welcome to my Amazing Website!!! :D</h1> </marquee>
+ <marquee behavior="scroll" direction="left"> <img src="/Images/cooltext/hope_you_like_it_here!!_logo.png" /> </marquee>
+
+    <p><a href="/links.html"><img src="/Images/Link-Buttons/Links_button.png" alt="List of Links" /></a></p>
+    <p>for all images I did not create myself <a href="/sources.html">sources</a>.</p>
+    <p>for some OCs <a href="/characters.html">characters</a></p>
+    <p>for my cool <a href="/Blog.html"><img src="Images/cooltext/blog_LOGO-TEXT_PRB.png"
+    alt="The popcorn_ron blog logo"></a></p>
+
+    <div id = PngOfName>
+    
+        <table width=100% height=100%> 
+    <tr>
+        <td style="text-align: center; vertical-align: middle;">
+              <style>
+#text {
+  text-align: center;
+  animation: tilt 3.5s infinite alternate;
+}
+
+@keyframes tilt {
+  from { transform: rotate(6deg); }
+  to { transform: rotate(-6deg); }
+}
+</style>
+	<p id="text"><img src="/Images/cooltext/popcorn_ron_logo.png" /></p>
+        </td>
+    </tr>
+    </table>
+    </div>
+
+    <h1>↓ Want a Random Link ↓</h1>
+    <p>code for button is from <a href= https://blog.lipsumhub.com/how-do-i-create-a-random-link-generator-in-html/>blog.lipsumhub.com</a></p>
+    <button id="randomLinkBtn"><img src="/My_cooltext/CLICK_FOR_A_RANDOME_LINK_BUTTON.png" /></button>
+
+    <script>
+        const links = [
+            "/home.html",
+            "/index.html",
+            "/popcorn_ron.html",
+            "/not_found.html",
+            "/sources.html",
+            "/E-mail.html",
+            "/links.html",
+            "/ART.html",
+            "/Projects.html",
+            "/about.html",
+            "/comics.html",
+            "/characters.html",
+            "/characters/Mint.html",
+            "/characters/Caramel.html",
+            "/characters/Jasper.html",
+            "/characters/Tea.html",
+            "/characters/Clover.html",
+            "/characters/Kiki.html",
+            "/Random/AA-ZZ.txt",
+            "/Blog/Post/6.html",
+            "/Blog/Post/5.html",
+            "/Blog/Post/4.html",
+            "/Blog/Post/3.html",
+            "/Blog/Post/2.html",
+            "/Blog/Post/1.html",
+            "/Blog.html"
+        ];
+
+        function getRandomLink() {
+            const randomIndex = Math.floor(Math.random() * links.length);
+            return links[randomIndex];
+        }
+
+        document.getElementById('randomLinkBtn').addEventListener('click', function() {
+            const randomLink = getRandomLink();
+            window.location.href = randomLink;
+        });
+    </script>
+
+    <p>this is just some things about me :)</p>
+
+    <ul>
+      <li>male he/him</li>
+      <li>I LOVE THE INTERNET</li>
+      <li>me like the old look of the web</li>
+      <li>me like games, the movies, TV, codeing (well im not good at it :/ )</li>
+      <li>this is my website LOL</li>
+    </ul>
+    
+      <p><a href= "/about.html"><img src="/Images/Link-Buttons/About-Me_button.png"></a>.</p>/
+     <p>for my Projects click <a href= "/Projects.html">here</a>.</p>
+     <p>for my E-mail / contact information click <a href= "/E-mail.html">here</a>.</p>
+     <h2>Cool people</h2>
+     <p><b>I DO NOT KNOW THESE PEOPLE I JUST LIKE THESE WEB PAGES OK</b></p>
+     <p><a href= "https://frutigeraeroarchive.org/"><img src="https://frutigeraeroarchive.org/images/buttons/frutigeraeroarchive_button.png" /></a>
+     <a href="https://alliedalmond.nekoweb.org/"><img src="https://i.ibb.co/f3tdLH2/almond.gif"></a>
+     <a href= "felixfever.nekoweb.org"><img src="https://felixfever.nekoweb.org/88.png" /></a>
+     <a href="https://fan.nekoweb.org"><img src="https://fan.nekoweb.org/images/button88x31.gif"></a></p>
+     
+     <p><iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Maily&dob=1762116185&gender=m&element=Air&pet=https%3A%2F%2Fpopcornron.neocities.org%2Fcharacters%2FMaily-The-Mail%2FMaily-The-Mail%2520001.png&map=town.gif&background=paper.jpg&tablecolor=black&textcolor=black" frameborder="0"></iframe></p>
+     
+     <p><img src="/Random/Nothing512.png" width="256" height="8192"/></p>
+     <a href="/27.html"><img src="/Images/Icons/27.png" /></a>
+  </body>
+</html>
+
+nekoweb
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of popcorn ron</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  
+    <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/Images/Icons/little_happy.png">
+  
+  <style> 
+  /* unvisited link */
+a:link {
+  color: #ffdaf5;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color:  blue ;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
+  
+  h1 {text-align: center;}
+    h2 {text-align: center;}
+p {text-align: center;}
+ul {text-align: center;}
+button {text-align: center;}
+  
+  
+  body {
+    background-image: url('/Images/GIMP/sky.jpg'); 
+  color: #0b053f;
+  text-align: center;
+  font-family: "Comic Sans MS", sans-serif;
+  }
+        #randomLinkBtn {
+          padding: 1px 4px;
+          font-size: 12px;
+          background-color: blue;
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+  
+    </style>
+    
+  <body>
+ <marquee behavior="scroll" direction="right"> <h1>Welcome to my Amazing Website!!! :D</h1> </marquee>
+ <marquee behavior="scroll" direction="left"> <img src="/Images/cooltext/hope_you_like_it_here!!_logo.png" /> </marquee>
+
+    <p><a href="/links.html"><img src="/Images/Link-Buttons/Links_button.png" alt="List of Links" /></a></p>
+    <p>for all images I did not create myself <a href="/sources.html">sources</a>.</p>
+    <p>for some OCs <a href="/characters.html">characters</a></p>
+    <p>for my cool <a href="/Blog.html"><img src="Images/cooltext/blog_LOGO-TEXT_PRB.png"
+    alt="The popcorn_ron blog logo"></a></p>
+
+    <div id = PngOfName>
+    
+        <table width=100% height=100%> 
+    <tr>
+        <td style="text-align: center; vertical-align: middle;">
+              <style>
+#text {
+  text-align: center;
+  animation: tilt 3.5s infinite alternate;
+}
+
+@keyframes tilt {
+  from { transform: rotate(6deg); }
+  to { transform: rotate(-6deg); }
+}
+</style>
+	<p id="text"><img src="/Images/cooltext/popcorn_ron_logo.png" /></p>
+        </td>
+    </tr>
+    </table>
+    </div>
+
+    <h1>↓ Want a Random Link ↓</h1>
+    <p>code for button is from <a href= https://blog.lipsumhub.com/how-do-i-create-a-random-link-generator-in-html/>blog.lipsumhub.com</a></p>
+    <button id="randomLinkBtn"><img src="/My_cooltext/CLICK_FOR_A_RANDOME_LINK_BUTTON.png" /></button>
+
+    <script>
+        const links = [
+            "/home.html",
+            "/index.html",
+            "/popcorn_ron.html",
+            "/not_found.html",
+            "/sources.html",
+            "/E-mail.html",
+            "/links.html",
+            "/ART.html",
+            "/Projects.html",
+            "/about.html",
+            "/comics.html",
+            "/characters.html",
+            "/characters/Mint.html",
+            "/characters/Caramel.html",
+            "/characters/Jasper.html",
+            "/characters/Tea.html",
+            "/characters/Clover.html",
+            "/characters/Kiki.html",
+            "/Random/AA-ZZ.txt",
+            "/Blog/Post/6.html",
+            "/Blog/Post/5.html",
+            "/Blog/Post/4.html",
+            "/Blog/Post/3.html",
+            "/Blog/Post/2.html",
+            "/Blog/Post/1.html",
+            "/Blog.html"
+        ];
+
+        function getRandomLink() {
+            const randomIndex = Math.floor(Math.random() * links.length);
+            return links[randomIndex];
+        }
+
+        document.getElementById('randomLinkBtn').addEventListener('click', function() {
+            const randomLink = getRandomLink();
+            window.location.href = randomLink;
+        });
+    </script>
+
+    <p>this is just some things about me :)</p>
+
+    <ul>
+      <li>male he/him</li>
+      <li>I LOVE THE INTERNET</li>
+      <li>me like the old look of the web</li>
+      <li>me like games, the movies, TV, codeing (well im not good at it :/ )</li>
+      <li>this is my website LOL</li>
+    </ul>
+    
+      <p><a href= "/about.html"><img src="/Images/Link-Buttons/About-Me_button.png"></a>.</p>/
+     <p>for my Projects click <a href= "/Projects.html">here</a>.</p>
+     <p>for my E-mail / contact information click <a href= "/E-mail.html">here</a>.</p>
+     <h2>Cool people</h2>
+     <p><b>I DO NOT KNOW THESE PEOPLE I JUST LIKE THESE WEB PAGES OK</b></p>
+     <p><a href= "https://frutigeraeroarchive.org/"><img src="https://frutigeraeroarchive.org/images/buttons/frutigeraeroarchive_button.png" /></a>
+     <a href="https://alliedalmond.nekoweb.org/"><img src="https://i.ibb.co/f3tdLH2/almond.gif"></a>
+     <a href= "felixfever.nekoweb.org"><img src="https://felixfever.nekoweb.org/88.png" /></a>
+     <a href="https://fan.nekoweb.org"><img src="https://fan.nekoweb.org/images/button88x31.gif"></a></p>
+     
+     <p><iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Maily&dob=1762116185&gender=m&element=Air&pet=https%3A%2F%2Fpopcornron.neocities.org%2Fcharacters%2FMaily-The-Mail%2FMaily-The-Mail%2520001.png&map=town.gif&background=paper.jpg&tablecolor=black&textcolor=black" frameborder="0"></iframe></p>
+     
+     <p><img src="/Random/Nothing512.png" width="256" height="8192"/></p>
+     <a href="/27.html"><img src="/Images/Icons/27.png" /></a>
+  </body>
+</html>
